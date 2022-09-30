@@ -320,10 +320,10 @@
             </ul>
           </address>
         </div>
-        <div class="footer-social">
-          <p>приєднуйтесь</p>
+        <div class="footer_social">
+          <p class="footer_social_label">приєднуйтесь</p>
           <div class="contacts-footer">
-            <ul class="list social-networks">
+            <ul class="list footer_social_networks">
               <li class="social-networks-footer">
                 <a href="" class="footer-icon">
                   <svg class="social-icon" width="20" height="20">
@@ -353,6 +353,28 @@
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
+        <!-- форма, футер -->
+        <div class="footer_form">
+          <p class="footer_social_label">Підпишіться на розсилку</p>
+          <div class="footer_form_flex">
+            <form class="footer_form_singup">
+              <label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  class="footer_input_email"
+                />
+              </label>
+            </form>
+            <button type="submit" class="btn_singup">
+              Підписатися
+              <svg class="icon_subscribe" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe-modal"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
